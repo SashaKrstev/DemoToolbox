@@ -4,8 +4,6 @@ namespace DemoToolbox
 {
     public static class ArrayExtensions
     {
-        private static System.Random rng = new System.Random();
-
         public static T RandomElement<T>(this T[] source)
         {
             if (source.Length > 0)

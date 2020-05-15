@@ -5,7 +5,7 @@ using DemoToolbox;
 
 public class DemoToolboxSampleScript : MonoBehaviour
 {
-    void FooBar()
+    public void FooBar()
     {
         string[] arr = new string[] {"Foo", "Bar" };
         arr.RandomElement();
